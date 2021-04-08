@@ -40,9 +40,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Screenshot
-Screenshot of Generated Page![## Screenshot](https://github.com/AdrianMEvans/CompanyProfileGenerator/blob/main/screenshots/GeneratedHtml.png?raw=true)
-Screenshot of Test Result in Terminal![## Screenshot](https://github.com/AdrianMEvans/CompanyProfileGenerator/blob/main/screenshots/testsTerminal.png?raw=true)
-Screenshot of Test Result HTML![## Screenshot](https://github.com/AdrianMEvans/CompanyProfileGenerator/blob/main/screenshots/testsHtml.png?raw=true)
+Screenshot of HomePage![## Screenshot](https://github.com/AdrianMEvans/NoteTaker/blob/main/screenshots/NoteTakerHome.png?raw=true)
+Screenshot of Notes Page without NOtes![## Screenshot](https://github.com/AdrianMEvans/NoteTaker/blob/main/screenshots/NoteTakerEmpty.png?raw=true)
+Screenshot of Populated Notes Page![## Screenshot](https://github.com/AdrianMEvans/NoteTaker/blob/main/screenshots/NoteTakerPopulated.png?raw=true)
 
 ## Contact :bellhop_bell:
 
