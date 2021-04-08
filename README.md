@@ -10,8 +10,7 @@ To see a video off the application that is deployed on Heroku [click here!](http
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [User Story](#story)
-* [Instructions](#Instructions)
+* [User Story](#userstory)
 * [Screenshot](#screenshot)
 * [Contact](#contact)
 
@@ -23,7 +22,7 @@ This application is already deployed on Heroku so no need to install. Just [clic
 Click on GET STARTED and then it takes you to the page where you can add notes. Enter the a Title and Text and click the SAVE icon. You will see the notes being populated on the left. 
 You can also delete a note by clicking the DELETE icon associated with the note you want to delete.
 
-## User Story
+## UserStory
 GIVEN a note-taking application\
 WHEN I open the Note Taker\
 THEN I am presented with a landing page with a link to a notes page\
