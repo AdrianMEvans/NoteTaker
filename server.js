@@ -1,18 +1,22 @@
+// Dependencies
+
 const express = require('express');
+const path = require('path');
+const app = express.Router();
 
-const app = express();
-const PORT = process.env.PORT || 8080;
 
-const htmlRouter = require('./routes/html-routes');
-const apiRouter = require('./routes/api-routes');
+const server = express();
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static(__dirname+'/public'));
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+const apiRoutes = require('./routes/api-routes');
+const htmlRoutes = require('./routes/html-routes');
 
-htmlRouter(app);
-apiRouter(app);
+app.use(apiRoutes);
+app.use(htmlRoutes);
 
-app.listen(PORT, function () {
-    console.log('Listening on port %s. Visit http://localhost:%s/ in your browser.', PORT, PORT);
-  });
+server.use(express.static(__dirname+'/public'));
+server.use(express.urlencoded({ extended: true }));
+server.use(express.json());
+server.use(app);
+
+server.listen(PORT,() => console.log(`Server is running on PORT:${PORT}`));
